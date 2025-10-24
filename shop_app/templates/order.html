@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказ</title>
+</head>
+<body>
+        <main>
+        <table width="100%">
+            <tr>
+                <td width="60%" valign="top">
+                    
+                    <img src="image/веста.png" alt="Диван Веста" width="300">
+                    <h3>Диван "Веста"</h3>
+                    <br>
+                    <h3>Описание</h3>
+                    <p>Угловой диван с механизмом трансформации</p>
+                    
+                    <table cellpadding="8" cellspacing="0">
+                        <tr>
+                            <td><strong>Глубина</strong></td>
+                            <td>309 см</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ширина</strong></td>
+                            <td>100 см</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Высота</strong></td>
+                            <td>78 см</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Материал каркаса</strong></td>
+                            <td>дерево</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Производитель</strong></td>
+                            <td>ЕвроМебель</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Гарантия</strong></td>
+                            <td>12 лет</td>
+                        </tr>
+                    </table>
+                </td>
+                
+                <td width="40%" valign="top">
+                    <h3>Итого:</h3>
+                    <p><strong>21990 ₽</strong></p>
+                    
+                    <p>Адрес доставки:</p>
+                    <select>
+                        <option value="">Выберите адрес доставки</option>
+                        <option value="address1">Москва, ул. Примерная, д. 1</option>
+                        <option value="address2">Москва, ул. Образцовая, д. 2</option>
+                    </select>
+                    
+                    <p>Способ оплаты:</p>
+                    <select>
+                        <option value="">Выберите способ оплаты</option>
+                        <option value="card">Банковской картой</option>
+                        <option value="cash">Наличными при получении</option>
+                    </select>
+                    
+                    <p>Тип доставки:</p>
+                    <input type="radio" id="courier" name="delivery">
+                    <label for="courier">Курьером</label><br>
+                    <input type="radio" id="pickup" name="delivery">
+                    <label for="pickup">ПВЗ</label>
+                    
+                    <br><br>
+                    <button>Заказать</button>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
